@@ -28,6 +28,7 @@ theme:
     - navigation.tabs.sticky
     # Removed this feature again as it's breaking TOC navigation on reported-issues.md
     - navigation.instant
+    - navigation.instant.progress
     - navigation.top
     - navigation.tracking
     - search.suggest
@@ -68,7 +69,7 @@ plugins:
         'a32nx-dev/overview.md': 'dev-corner/dev-guide/index.md'
         'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
         # TEMP redirects
-        # A.FLOOR
+      # A.FLOOR
         'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/advanced-guides/protections/afloor.md'
         # Fix Info
         'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/advanced-guides/flight-planning/fixinfo.md'
@@ -90,7 +91,7 @@ plugins:
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/v0101.md'
+        'latest-release.md': 'release-notes/v0111.md'
         'latest-installer-release.md': 'release-notes/installer/v330.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
@@ -159,7 +160,7 @@ markdown_extensions:
   pymdownx.tasklist:
     custom_checkbox: true
   pymdownx.emoji: # Allows emoji style inline embeds for icons
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
   md_in_html: {} # Allows markdown to be used in HTML
   abbr: {} # Adds abbreviations

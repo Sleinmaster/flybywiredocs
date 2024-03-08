@@ -71,7 +71,7 @@ To intercept the ILS Localizer, we follow these steps:
 
     ![ND ROSE LS Mode](../assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy}
 
-- Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase, the `Autopilot` together with "Managed Speed Mode" reliefs the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
+- Activate the `APPR` phase in the `MCDU-PERF` page. This is usually automatically done by the aircraft at a certain point during the approach, but we make sure that at this point at the latest it is activated. In `APPR` phase, the `Autopilot` together with "Managed Speed Mode" relieves the pilot of a lot of stress by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, V~app~ after landing flap selection).
 
     ![Activate APPR in ECAM PERF](../assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy }
 
@@ -87,7 +87,7 @@ To intercept the ILS Localizer, we follow these steps:
     ![ILS lateral deviation marker moving inwards](../assets/beginner-guide/landing/PFD-ILS-deviation-scale.png "ILS lateral deviation marker moving inwards"){loading=lazy}
 
 ??? note "What is the blue-dashed line?"
-    You might ask what the blue dashed line is. It is part of the new FIX INFO feature, available only in the Development version for the time being. It allows drawing distance rings or radial lines from navigation fixes. For this illustration, it helps us to visualize the localizer signal path at 261° into the runway, which we are going to capture with the APPR mode.
+    You might ask what the blue dashed line is. It is part of the FIX INFO feature which allows drawing distance rings or radial lines from navigation fixes. For this illustration, it helps us to visualize the localizer signal path at 261° into the runway, which we are going to capture with the APPR mode.
 
 !!! warning "Arming APPR"
     Using `APPR` also arms the glideslope descent (G/S) and the aircraft will descend as soon as it captures the ILS glideslope signal.
@@ -98,7 +98,7 @@ To intercept the ILS Localizer, we follow these steps:
 
     ![Established on ILS localizer](../assets/beginner-guide/landing/PFD-ND-established.png "Established on ILS localizer"){loading=lazy}
 
-Tower ATC will then give us clearance for teh ILS approach to the target runway. This clears us to descend on the ILS glideslope.
+Tower ATC will then give us clearance for the ILS approach to the target runway. This clears us to descend on the ILS glideslope.
 
 **Do not descent without explicit clearance from ATC.**
 

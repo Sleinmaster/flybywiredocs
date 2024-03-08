@@ -13,9 +13,9 @@
 
     <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" /> <img src="https://img.shields.io/badge/dynamic/json?color=00848A&label=Development&query=shortSha&url=https%3A%2F%2Fapi.flybywiresim.com%2Fapi%2Fv1%2Fgit-versions%2Fflybywiresim%2Faircraft%2Fbranches%2Fmaster&style=flat" alt="Development Version" />
 
-    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.33.8.0*
+    FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=new} / *Latest Sim Version: 1.36.2.0*
 
-!!! warning "Read our Support Guide"
+!!! warning "Read our Support Guides"
 
     1. [Learn how to fly an A32NX](index.md#1-learn-how-to-fly-the-a32nx)
     2. [Troubleshoot](index.md#2-how-to-troubleshoot)
@@ -24,30 +24,31 @@
     5. [Report Issue on the FBW Aircraft GitHub](index.md#5-report-issue-on-the-a32nx-github)
     6. [Collecting Support Information](index.md#collecting-support-information)
 
-    ---
+    === "Custom Autopilot"
 
-    Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
-
-    - [**Main Page**](../feature-guides/autopilot-fbw.md)
-    - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-    - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
-
-    ---
-
-    Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
-
-    - [**Features + Issues**](../feature-guides/cFMS.md)
-    - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
-
-    ---
-
-    If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
+        Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
     
-    - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
+        - [**Main Page**](../feature-guides/autopilot-fbw.md)
+        - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+        - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+
+    === "Custom FMS"
+
+        Please visit the ^^Dedicated Custom Flight Management System^^ page for more information:
+    
+        - [**Features + Issues**](../feature-guides/cFMS.md)
+        - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
+
+    === "SimBridge"
+
+        If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
+        
+        - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
 
     ---
 
     Do this before reporting bugs.
+
 ---
 
 <!--
@@ -66,14 +67,19 @@ TEMPLATE
 
 -->
 
-##  Index
+##  Quick Links
 
-| Quick Links                                                                            |
-|:---------------------------------------------------------------------------------------|
-| [Commonly Reported Issues](#commonly-reported-issues)                                  |
-| [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)        |
-| [FBW Installer Issues](#fbw-installer-issues)                                          |
-| [Incompatible and Problematic Add-ons/Mods](#incompatible-and-problematic-add-onsmods) |
+<div class="grid cards" markdown>
+
+- [Commonly Reported Issues](#commonly-reported-issues)
+    
+- [Solutions to Commonly Reported Issues](#solutions-to-commonly-reported-issues)
+
+- [FBW Installer Issues](#fbw-installer-issues)
+
+- [Incompatible and Problematic Add-ons/Mods](#incompatible-and-problematic-add-onsmods)
+
+</div>
 
 ## Use the Browser's Search Function
 
@@ -221,26 +227,15 @@ The following list of issues are commonly reported on our Discord support channe
     The aircraft is unable to move or taxi. The ECAM is showing a "NW STRG DISC" warning. 
     This is caused by an invisible tug which is still connected to the aircraft.
     This is an MSFS issue as the visual representation of the tug and the connection to the aircraft can get out of 
-    sync. 
+    sync.
 
-    ^^Possible Solution or Workaround^^
+    If you are using rudders/pedals like the Thrustmaster T.Flight Rudder Pedals, make sure they are correctly set up and calibrated. Otherwise the toe brakes may be impeding taxiing.
+
+    ^^Possible Solutions or Workarounds^^
 
     - [Disconnect the Tug](#disconnect-the-tug)
     - [Toolbar Pushback Add-on Issues](#toolbar-pushback-add-on-issues)
-
-??? bug "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
-    ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
-    
-    !!! tip ""
-        *Affected versions: Stable, Development*
-
-    ^^Description^^
-
-    The aircraft is hard to control during taxi, takeoff, or landing.
-
-    ^^Possible Solution or Workaround^^
-
-    - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    - [Rudder/Pedal Settings](#rudder-or-toe-brake-operation-issues)
 
 ??? bug "Unexpected Engines Shut Down"
     ### Unexpected Engines Shut Down
@@ -722,6 +717,40 @@ The following list of issues are commonly reported on our Discord support channe
     For more information on how to actually solve the issue, please reference the following GitHub issue for more information:
 
     [MSFS Popout Workaround / Pop out panel manager issue](https://github.com/hawkeye-stan/msfs-popout-panel-manager/issues/73){target=new .md-button}
+
+??? tip "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
+    ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    The aircraft is hard to control during taxi, takeoff, or landing.
+
+    ^^Possible Solution or Workaround^^
+
+    - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+
+??? tip "Rudder or Toe Brake Operation Issues"
+    ### Rudder or Toe Brake Operation Issues
+
+    !!! tip ""
+        *Affected versions: Stable, Development*
+
+    ^^Description^^
+
+    Experience problems like brakes getting stuck while taxiing or twitching rudders, or taxiing is erratic. 
+
+    ^^Root Cause^^
+
+    - MSFS Assistance settings (esp. AUTO_RUDDER) are activated. These need to be **deactivated** for the A32NX.
+    - Rudder setup is not correct.
+
+    ^^Possible Solution or Workaround^^
+    
+    - Deactivate [MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    - Rudder Settings: See the correct settings for rudder using the T.Flight Rudder Pedals as an example: [T.Flight Rudder Pedals Settings](./detail-pages/rudder.md)
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
     ### ++ctrl+'E'++ - Engine Start Unsupported

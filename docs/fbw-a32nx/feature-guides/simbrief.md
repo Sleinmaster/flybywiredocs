@@ -1,4 +1,25 @@
-# SimBrief Integration
+---
+title: SimBrief Integration
+---
+
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
+
+# SimBrief and Navigraph Integration
+
+Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the button below.
+
+[Setup SimBrief/Navigraph](#setup-a32nx-simbrief-integration){.md-button}
+
+## Quick Links
+
+|                                          Quick Links                                          |
+|:---------------------------------------------------------------------------------------------:|
+|                              [Flight Planning](#flight-planning)                              |
+|                            [SimBrief Airframe](#simbrief-airframe)                            |
+|             [Setup A32NX SimBrief Integration](#setup-a32nx-simbrief-integration)             |
+|          [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration)          |
+| [Using the FMS (MCDU) and SimBrief Integration](#using-the-fms-mcdu-and-simbrief-integration) |
+
 
 ## Flight Planning
 
@@ -24,7 +45,38 @@ This airframe will be updated by FlyByWire Simulations when needed, so you will 
 
 ## Setup A32NX SimBrief Integration
 
-The SimBrief username needs to be configured in the flyPad EFB. See [Setup SimBrief Integration](flypados3/settings.md#simbrief-integration)
+!!! info "This integration does not require having an active Navigraph subscription."
+
+Your Navigraph account needs to be configured in the flyPad EFB.
+
+You can do this by navigating to the following page on the flyPad (EFB):
+
+1. Settings Page
+- 3rd Party Options
+- Select the "Link Account" button next to Navigraph Account Link
+
+![flypad-ng-3rdpartyoptions-blank.png](../assets/flypados3/navigraph/flypad-ng-3rdpartyoptions-blank.png){loading=lazy}
+
+You will be presented with the following screen:
+
+![flypad-ng-auth.png](../assets/flypados3/navigraph/flypad-ng-auth.png){loading=lazy}
+
+Follow the instructions above to link your account.
+
+If successful, you should see your account name followed by your Navigraph account subscription status (not required) and an option to Unlink Account. As seen below:
+
+![flypad-ng-3rdpartyoptions.png](../assets/flypados3/navigraph/flypad-ng-3rdpartyoptions.png){loading=lazy}
+
+!!! note "Overriding SimBrief User ID"
+    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your 
+    aircraft or using an add-on for shared cockpit scenarios.
+
+    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
+    is removed. You will be notified when the override is succesful with a pop up message. Example below:
+
+    ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
+
+If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](flypados3/settings.md).
 
 ## Using the flyPad SimBrief Integration
 

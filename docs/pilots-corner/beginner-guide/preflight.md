@@ -21,7 +21,7 @@ You can choose to use other software/websites to plan your route, but when using
     - [Little Nav Map](https://albar965.github.io/littlenavmap.html){target=new} (Flight Planning and Charts)
     - [ChartFox](https://chartfox.org/){target=new} (Charts)
     - [Navigraph](https://navigraph.com/){target=new} (Flight Planning and Charts) <span style="color:red;">**Requires Subscription**</span>
-    - See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) when using our development version of the aircraft.
+    - See our [Custom Flight Management System](../../fbw-a32nx/feature-guides/cFMS.md) page and the [special notes section](../../fbw-a32nx/feature-guides/cFMS.md#special-notes) section.
 
 ## Flight Plan Import
 
@@ -53,3 +53,7 @@ To configure your aircraft, we have provided options onboard the aircraft to loa
 To help with navigation during your flight, our flyPad EFB can connect to your Navigraph account to provide access to all the en route charts for your flight!
 
 [EFB Navigraph](../../fbw-a32nx/feature-guides/flypados3/charts.md){.md-button}
+
+This concludes the *Preflight* guide.
+
+Continue with [Starting the Aircraft](starting-the-aircraft.md).

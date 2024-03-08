@@ -206,10 +206,6 @@ Perform the AFTER START checklist.
 
         The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
 
-    !!! warning "The CG scale available in the Asobo model of the flight deck is not entirely accurate for the A320neo. This is corrected in the [Development Version](https://docs.flybywiresim.com/fbw-a32nx/fbw-versions/#development-version-recommended) of the Plane."
-
-
-
 ---
 
 ## Flight Controls Check
@@ -411,7 +407,7 @@ This section provides you with information on understanding the different signs 
 
 The FAA has a handy guide available for download that contains images of all the pertinent signs you may encounter, their purpose, and location at the airport.
 
-[Download FAA Guide](https://www.faa.gov/airports/runway_safety/publications/media/QuickReferenceGuideProof8.pdf){ .md-button }
+[Download FAA Guide](https://www.faa.gov/sites/faa.gov/files/airports/runway_safety/publications/QuickReferenceGuideProof8.pdf){ .md-button }
 
 ---
 
