@@ -1,11 +1,13 @@
-![FlyByWire Simulations](https://raw.githubusercontent.com/flybywiresim/branding/1391fc003d8b5d439d01ad86e2778ae0bfc8b682/tails-with-text/FBW-Color-Light.svg#gh-dark-mode-only)
-![FlyByWire Simulations](https://github.com/flybywiresim/branding/blob/master/tails-with-text/FBW-Color-Dark.svg#gh-light-mode-only)
+![FlyByWire Simulations](https://raw.githubusercontent.com/flybywiresim/branding/master/tails-with-text/FBW-Color-Dark.svg#gh-light-mode-only)
+![FlyByWire Simulations](https://raw.githubusercontent.com/flybywiresim/branding/master/tails-with-text/FBW-Color-Light.svg#gh-dark-mode-only)
 
 # FlyByWire Documentation Project
 
 Repository for the FlyByWire Simulations Documentation Project website.
 
-[Learn How to Contribute](https://docs.flybywiresim.com//dev-corner/development-projects/documentation/)
+[Learn How to Contribute](https://docs.flybywiresim.com/dev-corner/development-projects/documentation-project/documentation/)
+
+[Writing Guide](https://docs.flybywiresim.com/dev-corner/development-projects/documentation-project/writing-documentation/)
 
 [https://docs.flybywiresim.com/](https://docs.flybywiresim.com/)
 
